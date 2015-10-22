@@ -1,0 +1,53 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(250, 237, 60);
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+a {
+  color: white;
+}
+
+.banner {
+  background-image: url(banner.jpg);
+  background-size: cover;
+  height: 200px;
+}
+
+.navbar {
+  background-color: rgb(52, 135, 241);
+  font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: rgb(250, 237, 60);
+}
+
+.well {
+  background-color: rgb(52, 135, 241);
+  color: rgb(250, 237, 60);
+  border: none;
+  text-align: justify;
+}
+
+.well>ul {
+  list-style-type: none;
+  -webkit-padding-start: 0px;
+}
+
+.pride {
+  background-image: url(frontpage.jpg);
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
